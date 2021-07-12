@@ -3,9 +3,10 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.container{
+.container-first{
     background-color: #FFFFFF;
     width: 870px;
     height: 679px;
@@ -76,4 +77,13 @@ hr{
 }
 .text{
     padding: 16px;
+}
+
+/*Latest Courses Style*/
+
+.container-second{
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 679px;
+    margin-top: 21px;
 }
